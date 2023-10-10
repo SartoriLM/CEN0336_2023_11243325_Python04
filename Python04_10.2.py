@@ -8,5 +8,5 @@ num1 = int(sys.argv [1])
 num2 = int(sys.argv [2]) + 1
 
 for x in range (num1, num2):
-	if x % 2 == 0:
+	if x % 2 != 0:
 		print (x)

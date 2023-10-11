@@ -10,4 +10,4 @@ list = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
 
 for x in list:
 	length = str(len (x)) 
-	print (length + '\t' + x)
+	print (length, '\t', x)
